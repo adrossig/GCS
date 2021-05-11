@@ -1,0 +1,68 @@
+body {	
+	background-image: url('../img.jpeg');
+	position: absolute; /* postulat de départ */
+	top: 50%;
+	left: 50%; /* à 50%/50% du parent référent */
+	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+label {
+	font-family: 'Gibson', sans-serif;
+	display: flex;
+	color: #1C1D1E;
+}
+
+input {
+	display: block;
+	height: 30px;
+	width: 250px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	border: 5px;
+	border-color: #212426;
+}
+
+.dialog {
+	width: 80%;
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	opacity: 0.8;
+}
+
+button {
+	display: block;
+	border-radius: 50px;
+	margin-bottom: 5px;
+	border: 0px;
+}
+
+.connect {
+	height: 40px;
+	width: 250px;
+	background-color: #25CF73;
+	color: white;
+}
+
+.leave {
+	height: 40px;
+	width: 200px;
+	background-color: #F14463;
+	color: white;
+	margin-left: 25px;
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+} 
+
+.line::before {
+	border-radius: 100px;
+	content: "";
+	width: 20px;
+	border-bottom: 3px solid rgb(250, 112, 0);
+	margin: 5px;
+	margin-top: -10px;
+}
