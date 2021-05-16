@@ -1,0 +1,5417 @@
+{
+	"1885233650": [
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": -1,
+			"label": "Rien",
+			"description": "Rien",
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 0,
+			"label": "Casque anti-bruit",
+			"description": "Casque anti-bruit plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 1,
+			"label": "Châpeau de sheriff",
+			"description": "Châpeau de sheriff",
+			"mass": 20,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 2,
+			"label": "Simple bonnet",
+			"description": "Simple bonnet plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 6,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 3,
+			"label": "Simple chapeau",
+			"description": "Simple chapeau (noir et gris)",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 12,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 4,
+			"label": "Casquette LS",
+			"description": "Casquette Los Santos noir et grise",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 5,
+			"label": "Bonnet court",
+			"description": "Bonnet court (noir et gris)",
+			"mass": 60,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 4,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 6,
+			"label": "Casquette militaire",
+			"description": "Casquette coupe militaire plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 7,
+			"label": "Casquette golf",
+			"description": "Casquette coupe golfe plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 24,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 8,
+			"label": "Rien",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 9,
+			"label": "Casquette à l'envers",
+			"description": "Casquette marque à l'envers vert/violet",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 21,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 10,
+			"label": "Casquette #9",
+			"description": "Casquette marque, vert/violet",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 21,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 11,
+			"label": "Rien",
+			"description": "Rien",
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 12,
+			"label": "Chapeau borsalino",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 70,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 13,
+			"label": "Chapeau cowboy",
+			"description": "Chapeau cowboy, plusieurs coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 125,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 14,
+			"label": "Bandanas",
+			"description": "Banadans, plusieurs coloris",
+			"mass": 40,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 15,
+			"label": "Casque audio BO",
+			"description": "Casque audio marque BO, plusieurs coloris",
+			"mass": 160,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 16,
+			"label": "Casque motocross",
+			"description": "Casque motocross, plusieurs coloris",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 17,
+			"label": "Casque bol vespa",
+			"description": "Casque bol vespa, plusieurs coloris",
+			"mass": 1200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 18,
+			"label": "Casque intégral",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 19,
+			"label": "Casque pilote",
+			"description": "0-10",
+			"mass": 400,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 420,
+			"flags": [
+				""
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 20,
+			"label": "Bob",
+			"description": "Bob, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 14,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 21,
+			"label": "Chapeau St-Tropez",
+			"description": "Chapeau St-Tropez, plusieurs coloris",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 50,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 22,
+			"label": "Bonnet père-noël",
+			"description": "Bonnet père-noël, rouge ou vert",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 23,
+			"label": "Bonnet de lutin",
+			"description": "Bonne de lutin",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 24,
+			"label": "Corne de Gazelle",
+			"description": "Corne de Gazelle",
+			"mass": 300,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 25,
+			"label": "Chapeau borsalino #2",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 26,
+			"label": "Chapeau melon",
+			"description": "Chapeau melon, plusieurs coloris",
+			"mass": 200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 27,
+			"label": "Chapeau haut",
+			"description": "Chapeau haut, plusieurs coloris",
+			"mass": 280,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 28,
+			"label": "Bonnet court #2",
+			"description": "Bonnet court, plusieurs coloris",
+			"mass": 60,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 4,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 29,
+			"label": "Chapeau court",
+			"description": "Chapeau court, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 30,
+			"label": "Chapeau borsalino #3",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 31,
+			"label": "Chapeau simple USA",
+			"description": "Chapeau simple USA, simple couleur",
+			"mass": 200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 32,
+			"label": "Chapeau haut USA",
+			"description": "Chapeau haut USA, simple couleur",
+			"mass": 250,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 220,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 33,
+			"label": "Chapeau très haut USA",
+			"description": "Chapeau très haut USA, simple couleur",
+			"mass": 310,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 280,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 34,
+			"label": "Bonnet usa",
+			"description": "Bonnet usa, simple couleur",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 35,
+			"label": "Serre-tête USA",
+			"description": "Serre-tête usa, simple couleur",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 36,
+			"label": "Serre-tête USA #2",
+			"description": "Serre-tête usa, simple couleur",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 37,
+			"label": "Casquette boisson",
+			"description": "Casquette boisson, plusieurs coloris",
+			"mass": 600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 38,
+			"label": "Casque pilote aérien",
+			"description": "Casque pilote aérien, couleur unique",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 600,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 39,
+			"label": "Casque anti-émeute",
+			"description": "Casque anti-émeute, plusieurs coloris",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 320,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 40,
+			"label": "Bonnêt noël",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 41,
+			"label": "Bonnêt noël #2",
+			"description": "Bonnet noël, simple couleur",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 42,
+			"label": "Bonnêt noël #3",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 45,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 43,
+			"label": "Bonnêt noël #4",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 44,
+			"label": "Casquette marque",
+			"description": "Casquette marque, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 45,
+			"label": "Casquette marque à l'envers #2",
+			"description": "Casquette marque à l'envers, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 46,
+			"label": "Casquette police",
+			"description": "Casquette police, simple couleur",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 47,
+			"label": "Casque pilote aérien #2",
+			"description": "Casque pilote aérien, couleur unique",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 600,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 48,
+			"label": "Casque motocross #2",
+			"description": "Casque motocross, simple couleur",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 49,
+			"label": "Casque motocross #3",
+			"description": "Casque motocross, simple couleur",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 50,
+			"label": "Casque intégral #2",
+			"description": "Casque intégral noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 51,
+			"label": "Casque intégral #3",
+			"description": "Casque intégral, visière chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 52,
+			"label": "Casque intégral #4",
+			"description": "Casque intégral noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 53,
+			"label": "Casque intégral #5",
+			"description": "Casque intégral, visière chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 54,
+			"label": "Casquette de marque côté",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 55,
+			"label": "Casquette simple marque #2",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 32,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 56,
+			"label": "Casquette de marque côté #2",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 57,
+			"label": "Casque Alien",
+			"description": "Casque alien déguisement",
+			"mass": 3500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 800,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 58,
+			"label": "Casquette 3D",
+			"description": "Casquette 3D, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 59,
+			"label": "Casque anti-émeute #2",
+			"description": "Casque anti-émeute, plusieurs coloris",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 320,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 60,
+			"label": "Casquette militaire #2",
+			"description": "Casquette coupe militaire plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 61,
+			"label": "Chapeau borsalino #3",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 62,
+			"label": "Casque intégral #5",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 63,
+			"label": "Casquette unicolor",
+			"description": "Casquette unicolor",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 15,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 64,
+			"label": "Chapeau borsalino #3",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 65,
+			"label": "Casquette secuserv",
+			"description": "Casquette secuserv",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 66,
+			"label": "Casquette secuserv à l'envers",
+			"description": "Casquette secuserv à l'envers",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 67,
+			"label": "Casque intégral ouvert",
+			"description": "Casque intégral ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 68,
+			"label": "Casque intégral ouvert #2",
+			"description": "Casque intégral ouvert, noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 69,
+			"label": "Casque intégral ouvert #3",
+			"description": "Casque intégral ouvert, chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 70,
+			"label": "Casque intégral ouvert #4",
+			"description": "Casque intégral ouvert, noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 71,
+			"label": "Casque intégral ouvert #5",
+			"description": "Casque intégral ouvert, chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 72,
+			"label": "Casque intégral ouvert #6",
+			"description": "Casque intégral ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 73,
+			"label": "Casque rond fermé",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 74,
+			"label": "Casque rond ouvert",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 75,
+			"label": "Casque bol ouvert",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": null
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 76,
+			"label": "Casquette de marque #3",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 32,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 77,
+			"label": "Casquette de marque à l'envers #3",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 78,
+			"label": "Casque rond fermé #2",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 79,
+			"label": "Casque rond ouvert #2",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 80,
+			"label": "Casque rond fermé #3",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 81,
+			"label": "Casque rond ouvert #3",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 82,
+			"label": "Casque intégral #6",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 83,
+			"label": "Bonnet motard",
+			"description": "Bonnet motard, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 84,
+			"label": "Bol motard avec pique",
+			"description": "Bol motard avec pique, plusieurs motifs",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 70,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 85,
+			"label": "bol motard basique",
+			"description": "Bol motard basique",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 86,
+			"label": "bol motard basique #2",
+			"description": "Bol motard basique",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 87,
+			"label": "Bol motard avec pique #2",
+			"description": "Bol motard avec pique",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 70,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 88,
+			"label": "Bol motard avec pique #3",
+			"description": "Bol motard avec pique",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 89,
+			"label": "Bol motard basique ouvert",
+			"description": "Bol motard basique ouvert",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 90,
+			"label": "Bol motard chrome ouvert",
+			"description": "Bol motard chrome ouvert",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 91,
+			"label": "Casque intégral fluo fermé",
+			"description": "Casque intégral fluo fermé, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 92,
+			"label": "Casque intégral fluo ouvert",
+			"description": "Casque intégral fluo ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 93,
+			"label": "Casque bol cible ouvert",
+			"description": "Casque bol cible ouvert, plusieurs coloris",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 50,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 94,
+			"label": "Chapeau de pêche",
+			"description": "Chapeau de pêche, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 12,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 95,
+			"label": "Chapeau borsalino #4",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 96,
+			"label": "Casquette de marque #4",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 97,
+			"label": "Bonnet de lutin",
+			"description": "Bonne de lutin, plusieurs motifs",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 98,
+			"label": "Bonnêt noël #5",
+			"description": "Bonnet noël, simple motif",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 99,
+			"label": "Bonnêt noël #6",
+			"description": "Bonnet noël, simple motif",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 45,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 100,
+			"label": "Bonnet de lutin #2",
+			"description": "Bonne de lutin",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 101,
+			"label": "Corne de Gazelle #2",
+			"description": "Corne de Gazelle et boule rouge",
+			"mass": 300,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 102,
+			"label": "Casquette unicolor #2",
+			"description": "Casquette unicolor",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 15,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 103,
+			"label": "Casquette militaire uni",
+			"description": "Casquette militaire uni, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 104,
+			"label": "Chapeau chasse militaire uni",
+			"description": "Chapeau chasse militaire uni, plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 90,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 105,
+			"label": "Chapeau cowboy militaire uni",
+			"description": "Chap. cowboy militaire uni, plusieurs coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 106,
+			"label": "Beret militaire uni",
+			"description": "Beret militaire uni, plusieurs coloris",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 107,
+			"label": "Casquette militaire uni #2",
+			"description": "Casquette militaire uni, plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 108,
+			"label": "Casquette courte militaire uni",
+			"description": "Casquette courte mili uni, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 109,
+			"label": "Casquette de marque #5",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 110,
+			"label": "Casquette de marque à l'envers #4",
+			"description": "Casquette simple marque à l'envers, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 111,
+			"label": "Casque pilote #2",
+			"description": "Casque pilote",
+			"mass": 400,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 420,
+			"flags": [
+				""
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 112,
+			"label": "Bol militaire",
+			"description": "Bol militaire, plusieurs motifs",
+			"mass": 800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 300,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 113,
+			"label": "Couvre-chef",
+			"description": "Couvre-chef, plusieurs motifs",
+			"mass": 350,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 450,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 114,
+			"label": "Chapeau emir",
+			"description": "Chapeau emir, plusieurs motifs",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 350,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 115,
+			"label": "Casque anti-emeute #2",
+			"description": "Casque anti-emeute, plusieurs motifs",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 580,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 116,
+			"label": "Casque opération",
+			"description": "Casque opé + infrarouge, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 950,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 117,
+			"label": "Casque opération #2",
+			"description": "Casque opé + infrarouge ouvert, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 950,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 118,
+			"label": "Casque opération #3",
+			"description": "Casque furtif, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 5,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 119,
+			"label": "Casque opération #4",
+			"description": "Casque furtif ouvert, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 5,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 120,
+			"label": "Bonnet couvre oreille",
+			"description": "Bonnet couvre oreille, plusieurs coloris",
+			"mass": 110,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 14,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 121,
+			"label": "Rien",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 122,
+			"label": "Casquette médicale",
+			"description": "Casquette médicale, plusieurs coloris",
+			"mass": 140,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 123,
+			"label": "Casque démineur",
+			"description": "Casque démineur, plusieurs coloris",
+			"mass": 4000,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 124,
+			"label": "Casque démineur #2",
+			"description": "Casque démineur ouvert, plusieurs coloris",
+			"mass": 4000,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 125,
+			"label": "Casque anti-manif",
+			"description": "Casque anti-manif, plusieurs coloris",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": 1885233650,
+			"componentId": 0,
+			"drawableId": 126,
+			"label": "Casque anti-manif #2",
+			"description": "Casque anti-manif ouvert, plusieurs coloris",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		}
+	],
+	"-1667301416": [
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": -1,
+			"label": "Rien",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 0,
+			"label": "Casque anti-bruit",
+			"description": "Casque anti-bruit plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 1,
+			"label": "Bonnet d'âne",
+			"description": "Bonnet d'âne",
+			"mass": 20,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 2,
+			"label": "Chapeau cowgirl",
+			"description": "Chapeau cowboy, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 125,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 3,
+			"label": "Simple chapeau",
+			"description": "Simple chapeau (noir et gris)",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 12,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 4,
+			"label": "Casquette LS",
+			"description": "Casquette Los Santos noir et grise",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 5,
+			"label": "Bonnet court",
+			"description": "Bonnet court (noir et gris)",
+			"mass": 60,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 4,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 6,
+			"label": "Casquette militaire",
+			"description": "Casquette coupe militaire plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 7,
+			"label": "Casquette golf",
+			"description": "Casquette coupe golfe plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 24,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 8,
+			"label": "Rien",
+			"description": "Rien",
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 9,
+			"label": "Casquette marque",
+			"description": "Casquette marque",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 21,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 10,
+			"label": "Casquette #9",
+			"description": "Casquette marque, vert/violet",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 21,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 11,
+			"label": "Chapeau madame",
+			"description": "Chapeau madame, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 125,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 12,
+			"label": "Bonnet court",
+			"description": "Bonnet court (noir et gris)",
+			"mass": 60,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 4,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 13,
+			"label": "Chapeau St-Tropez",
+			"description": "Chapeau St-Tropez, plusieurs coloris",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 50,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 14,
+			"label": "Beret breton",
+			"description": "Beret breton",
+			"mass": 40,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 15,
+			"label": "Casque audio BO",
+			"description": "Casque audio marque BO, plusieurs coloris",
+			"mass": 160,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 16,
+			"label": "Casque motocross",
+			"description": "Casque motocross, plusieurs coloris",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 17,
+			"label": "Casque bol vespa",
+			"description": "Casque bol vespa, plusieurs coloris",
+			"mass": 1200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 18,
+			"label": "Casque intégral",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 19,
+			"label": "Casque pilote",
+			"description": "0-10",
+			"mass": 400,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 420,
+			"flags": [
+				""
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 20,
+			"label": "Bob",
+			"description": "Bob, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 14,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 21,
+			"label": "Chapeau St-Tropez",
+			"description": "Chapeau St-Tropez, plusieurs coloris",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 50,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 22,
+			"label": "Chapeau couture",
+			"description": "Chapeau couture",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 90,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 23,
+			"label": "Bonnet père-noël",
+			"description": "Bonnet père-noël, rouge ou vert",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 24,
+			"label": "Bonnet de lutin",
+			"description": "Bonne de lutin",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 25,
+			"label": "Corne de Gazelle",
+			"description": "Corne de Gazelle",
+			"mass": 300,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 26,
+			"label": "Chapeau melon",
+			"description": "Chapeau melon, plusieurs coloris",
+			"mass": 200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 27,
+			"label": "Chapeau haut",
+			"description": "Chapeau haut, plusieurs coloris",
+			"mass": 280,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 28,
+			"label": "Simple chapeau",
+			"description": "Simple chapeau (noir et gris)",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 12,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 29,
+			"label": "Bonnet marque",
+			"description": "Bonnet marque, simple couleur",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 30,
+			"label": "Chapeau simple USA",
+			"description": "Chapeau simple USA, simple couleur",
+			"mass": 200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 31,
+			"label": "Chapeau haut USA",
+			"description": "Chapeau haut USA, simple couleur",
+			"mass": 250,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 220,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 32,
+			"label": "Chapeau très haut USA",
+			"description": "Chapeau très haut USA, simple couleur",
+			"mass": 310,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 280,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 33,
+			"label": "Bonnet usa",
+			"description": "Bonnet usa, simple couleur",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 34,
+			"label": "Serre-tête USA",
+			"description": "Serre-tête usa, simple couleur",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 35,
+			"label": "Serre-tête USA #2",
+			"description": "Serre-tête usa, simple couleur",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 36,
+			"label": "Casquette boisson",
+			"description": "Casquette boisson, plusieurs coloris",
+			"mass": 600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 37,
+			"label": "Casque pilote aérien",
+			"description": "Casque pilote aérien, couleur unique",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 600,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 38,
+			"label": "Casque anti-émeute",
+			"description": "Casque anti-émeute, plusieurs coloris",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 320,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 39,
+			"label": "Bonnêt noël",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 40,
+			"label": "Bonnêt noël #2",
+			"description": "Bonnet noël, simple couleur",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 41,
+			"label": "Bonnêt noël #3",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 45,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 42,
+			"label": "Bonnêt noël #4",
+			"description": "Bonnet noël, plusieurs coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 43,
+			"label": "Casquette marque",
+			"description": "Casquette marque, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 44,
+			"label": "Casquette marque à l'envers #2",
+			"description": "Casquette marque à l'envers, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 45,
+			"label": "Casquette police",
+			"description": "Casquette police, simple couleur",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 60,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 46,
+			"label": "Casque pilote aérien #2",
+			"description": "Casque pilote aérien, couleur unique",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 600,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 47,
+			"label": "Casque motocross #2",
+			"description": "Casque motocross, simple couleur",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 48,
+			"label": "Casque motocross #3",
+			"description": "Casque motocross, simple couleur",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 49,
+			"label": "Casque intégral #2",
+			"description": "Casque intégral noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 50,
+			"label": "Casque intégral #3",
+			"description": "Casque intégral, visière chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 51,
+			"label": "Casque intégral #4",
+			"description": "Casque intégral noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 52,
+			"label": "Casque intégral #5",
+			"description": "Casque intégral, visière chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 53,
+			"label": "Casquette de marque côté",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 54,
+			"label": "Chapeau borsalino #4",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 55,
+			"label": "Casquette simple marque #2",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 32,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 56,
+			"label": "Casquette de marque côté #2",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 57,
+			"label": "Rien",
+			"description": "Rien",
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 58,
+			"label": "Casquette 3D",
+			"description": "Casquette 3D, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 59,
+			"label": "Casque anti-émeute #2",
+			"description": "Casque anti-émeute, plusieurs coloris",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 320,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 60,
+			"label": "Casquette militaire #2",
+			"description": "Casquette coupe militaire plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 18,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 61,
+			"label": "Chapeau borsalino #3",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 110,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 62,
+			"label": "Casque intégral #5",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 63,
+			"label": "Casquette unicolor",
+			"description": "Casquette unicolor",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 15,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 64,
+			"label": "Casquette secuserv",
+			"description": "Casquette secuserv",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 65,
+			"label": "Casquette secuserv à l'envers",
+			"description": "Casquette secuserv à l'envers",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 66,
+			"label": "Casque intégral ouvert",
+			"description": "Casque intégral ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 67,
+			"label": "Casque intégral ouvert #2",
+			"description": "Casque intégral ouvert, noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 68,
+			"label": "Casque intégral ouvert #3",
+			"description": "Casque intégral ouvert, chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 69,
+			"label": "Casque intégral ouvert #4",
+			"description": "Casque intégral ouvert, noir",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 70,
+			"label": "Casque intégral ouvert #5",
+			"description": "Casque intégral ouvert, chrome",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 140,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 71,
+			"label": "Casque intégral ouvert #6",
+			"description": "Casque intégral ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 72,
+			"label": "Casque rond fermé",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 73,
+			"label": "Casque rond ouvert",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 74,
+			"label": "Casque bol ouvert",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": null
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 75,
+			"label": "Casquette de marque #3",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 32,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 76,
+			"label": "Casquette de marque à l'envers #3",
+			"description": "Casquette de marque côté, deux coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 77,
+			"label": "Casque rond fermé #2",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 78,
+			"label": "Casque rond ouvert #2",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 79,
+			"label": "Casque rond fermé #3",
+			"description": "Casque rond fermé, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 80,
+			"label": "Casque rond ouvert #3",
+			"description": "Casque rond ouvert, plusieurs coloris",
+			"mass": 1900,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 81,
+			"label": "Casque intégral #6",
+			"description": "Casque intégral, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 82,
+			"label": "Bonnet motard",
+			"description": "Bonnet motard, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 25,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 83,
+			"label": "Bol motard avec pique",
+			"description": "Bol motard avec pique, plusieurs motifs",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 70,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 84,
+			"label": "bol motard basique",
+			"description": "Bol motard basique",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 85,
+			"label": "bol motard basique #2",
+			"description": "Bol motard basique",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 86,
+			"label": "Bol motard avec pique #2",
+			"description": "Bol motard avec pique",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 70,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 87,
+			"label": "Bol motard avec pique #3",
+			"description": "Bol motard avec pique",
+			"mass": 1600,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 88,
+			"label": "Bol motard basique ouvert",
+			"description": "Bol motard basique ouvert",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 55,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 89,
+			"label": "Bol motard chrome ouvert",
+			"description": "Bol motard chrome ouvert",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 90,
+			"label": "Casque intégral fluo fermé",
+			"description": "Casque intégral fluo fermé, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 91,
+			"label": "Casque intégral fluo ouvert",
+			"description": "Casque intégral fluo ouvert, plusieurs coloris",
+			"mass": 2200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 180,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 92,
+			"label": "Casque bol cible ouvert",
+			"description": "Casque bol cible ouvert, plusieurs coloris",
+			"mass": 1500,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 50,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 93,
+			"label": "Chapeau de pêche",
+			"description": "Chapeau de pêche, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 12,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 94,
+			"label": "Chapeau borsalino #4",
+			"description": "Chapeau borsalino, plusieurs coloris",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 130,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 95,
+			"label": "Casquette de marque #4",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 96,
+			"label": "Bonnet de lutin",
+			"description": "Bonne de lutin, plusieurs motifs",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 97,
+			"label": "Bonnêt noël #5",
+			"description": "Bonnet noël, simple motif",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 40,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 98,
+			"label": "Bonnêt noël #6",
+			"description": "Bonnet noël, simple motif",
+			"mass": 180,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 45,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 99,
+			"label": "Bonnet de lutin #2",
+			"description": "Bonne de lutin",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 100,
+			"label": "Corne de Gazelle #2",
+			"description": "Corne de Gazelle et boule rouge",
+			"mass": 300,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 80,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 101,
+			"label": "Casquette unicolor #2",
+			"description": "Casquette unicolor",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 15,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 102,
+			"label": "Casquette militaire uni",
+			"description": "Casquette militaire uni, plusieurs coloris",
+			"mass": 120,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 103,
+			"label": "Chapeau chasse militaire uni",
+			"description": "Chapeau chasse militaire uni, plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 90,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 104,
+			"label": "Chapeau cowboy militaire uni",
+			"description": "Chap. cowboy militaire uni, plusieurs coloris",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 150,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 105,
+			"label": "Beret militaire uni",
+			"description": "Beret militaire uni, plusieurs coloris",
+			"mass": 90,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 95,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 106,
+			"label": "Casquette militaire uni #2",
+			"description": "Casquette militaire uni, plusieurs coloris",
+			"mass": 100,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 30,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 107,
+			"label": "Casquette courte militaire uni",
+			"description": "Casquette courte mili uni, plusieurs coloris",
+			"mass": 80,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 108,
+			"label": "Casquette de marque #5",
+			"description": "Casquette simple marque, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 109,
+			"label": "Casquette de marque à l'envers #4",
+			"description": "Casquette simple marque à l'envers, plusieurs coloris",
+			"mass": 130,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 35,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 110,
+			"label": "Casque pilote #2",
+			"description": "Casque pilote",
+			"mass": 400,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 420,
+			"flags": [
+				""
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "headset"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 111,
+			"label": "Bol militaire",
+			"description": "Bol militaire, plusieurs motifs",
+			"mass": 800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 300,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 112,
+			"label": "Couvre-chef",
+			"description": "Couvre-chef, plusieurs motifs",
+			"mass": 350,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 450,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 113,
+			"label": "Chapeau emir",
+			"description": "Chapeau emir, plusieurs motifs",
+			"mass": 150,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 350,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "hat"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 114,
+			"label": "Casque anti-emeute #2",
+			"description": "Casque anti-emeute, plusieurs motifs",
+			"mass": 1800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 580,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 115,
+			"label": "Casque opération",
+			"description": "Casque opé + infrarouge, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 950,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 116,
+			"label": "Casque opération #2",
+			"description": "Casque opé + infrarouge ouvert, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 950,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 117,
+			"label": "Casque opération #3",
+			"description": "Casque furtif, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 5,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 118,
+			"label": "Casque opération #4",
+			"description": "Casque furtif ouvert, plusieurs coloris",
+			"mass": 3200,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 5,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 119,
+			"label": "Bonnet couvre oreille",
+			"description": "Bonnet couvre oreille, plusieurs coloris",
+			"mass": 110,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 14,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"clothe_shop"
+			],
+			"class": "bonnet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 120,
+			"label": "Rien",
+			"description": null,
+			"mass": null,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": null,
+			"flags": [
+				"empty"
+			],
+			"shops": [
+				""
+			],
+			"class": null
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 121,
+			"label": "Casquette médicale",
+			"description": "Casquette médicale, plusieurs coloris",
+			"mass": 140,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 20,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "cap"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 122,
+			"label": "Casque démineur",
+			"description": "Casque démineur, plusieurs coloris",
+			"mass": 4000,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 123,
+			"label": "Casque démineur #2",
+			"description": "Casque démineur ouvert, plusieurs coloris",
+			"mass": 4000,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.8,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 124,
+			"label": "Casque anti-manif",
+			"description": "Casque anti-manif, plusieurs coloris",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 125,
+			"label": "Casque anti-manif #2",
+			"description": "Casque anti-manif ouvert, plusieurs coloris",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		},
+		{
+			"parentModel": -1667301416,
+			"componentId": 0,
+			"drawableId": 126,
+			"label": "Casque anti-manif #2",
+			"description": "Casque anti-manif ouvert, plusieurs coloris",
+			"mass": 2800,
+			"volume": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"price": 1.2,
+			"flags": [
+				"buyable"
+			],
+			"shops": [
+				"lspd",
+				"ems"
+			],
+			"class": "helmet"
+		}
+	]
+}
