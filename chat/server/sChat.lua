@@ -22,7 +22,7 @@ function Chat:GetAllPlayersSyncData(id)
 	--for _, player in pairs(sPlayers:GetPlayers()) do
 	for i = 1, #sPlayers:GetPlayers() do
 		if id ~= sPlayers:GetPlayers()[i]:GetId() then
-			table.insert(data, self:GetPlayerSyncData(sPlayers:GetPlayers()[i]))
+			data[i] = self:GetPlayerSyncData(sPlayers:GetPlayers()[i])
 		end
 	end
 	return data

@@ -310,7 +310,7 @@ function KeyValueStore:RemoveStaleCachedValuesThread()
 			--for key, cache_data in pairs(self.cached_values) do
 			for i = 1, #self.cached_values do
 				if self.cached_values[i].timer:GetMilliseconds() > self.min_cache_time then
-					table.insert(keys_to_remove, i)
+					keys_to_remove[i] = i
 				end
 			end
 

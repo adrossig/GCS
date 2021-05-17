@@ -14,7 +14,7 @@ function Events:Fire(event, ...)
 	for i = 1, #self.subs[event] do
 		local return_val = self.subs[event][i]:Fire(...)
 		if return_val ~= nil then
-			table.insert(return_vals, return_val)
+			return_vals[i] = return_val
 		end
 	end
 	return return_vals

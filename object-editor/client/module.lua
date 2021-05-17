@@ -251,11 +251,11 @@ function ObjectEditor:SerializeAllObjects()
 		if Objects[i]:GetValue("ObjectEditorId") then
 			local pos = Objects[i]:GetPosition()
 			local rot = Objects[i]:GetRotation()
-			table.insert(data, {
+			data[i] = {
 				model = Objects[i]:GetModel(),
 				pos = {x = pos.x, y = pos.y, z = pos.z},
 				rot = {x = rot.x, y = rot.y, z = rot.z}
-			})
+			}
 		end
 	end
 
