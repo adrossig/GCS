@@ -10,8 +10,9 @@ function Events:Fire(event, ...)
 	if not self.subs[event] then return {} end
 
 	local return_vals = {}
-	for id, cb in pairs(self.subs[event]) do
-		local return_val = cb:Fire(...)
+	--for id, cb in pairs(self.subs[event]) do
+	for i = 1, #self.subs[event] do
+		local return_val = self.subs[event][i]:Fire(...)
 		if return_val ~= nil then
 			table.insert(return_vals, return_val)
 		end

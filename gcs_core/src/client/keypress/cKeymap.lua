@@ -19,14 +19,15 @@ function Keymap:Register(key, keytype, name, cb)
 		RegisterKeyMapping("+" .. keymap_name, name, keytype, key)
 
 		RegisterCommand("+" .. keymap_name, function()
-			for id, callback in pairs(self.maps[key]) do
-				callback({down = true})
+			--for id, callback in pairs(self.maps[key]) do
+			for i = 1, #self.maps[key] do
+				self.maps[key][i]({down = true})
 			end
 		end)
 
 		RegisterCommand("-" .. keymap_name, function()
-			for id, callback in pairs(self.maps[key]) do
-				callback({up = true})
+			for i = 1, #self.maps[key] do
+				self.maps[key][i]({up = true})
 			end
 		end)
 

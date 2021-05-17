@@ -58,36 +58,37 @@ end
 -- Check to see if a Ped died. Fires when players die as well.
 function DefaultEvents:CheckPeds()
 	Citizen.CreateThread(function()
-		for net_id, ped in pairs(Peds) do
-			local is_dead = ped:IsFatallyInjured() or ped:IsDead()
+		--for net_id, ped in pairs(Peds) do
+		for i = 1, #Peds do
+			local is_dead = Peds[i]:IsFatallyInjured() or Peds[i]:IsDead()
 			
-			if is_dead and not ped:GetValue("DefaultEvents:Dead") then
-				ped:SetValue("DefaultEvents:Dead", true)
+			if is_dead and not Peds[i]:GetValue("DefaultEvents:Dead") then
+				Peds[i]:SetValue("DefaultEvents:Dead", true)
 
 				Events:Fire("PedDied", {
-					ped = ped
+					ped = Peds[i]
 				})
 
 				-- If this isn't a player and this client controls the ped, sync the event to the server
-				if not ped:IsAPlayer() and ped:NetworkHasControlOfNetworkId() then
+				if not Peds[i]:IsAPlayer() and Peds[i]:NetworkHasControlOfNetworkId() then
 					-- TODO: send more data because the server knows nothing
 					Network:Send("DefaultEvents:PedDied", {
-						ped_net_id = ped:GetNetId()
+						ped_net_id = Peds[i]:GetNetId()
 					})
 				end
-			elseif not is_dead and ped:GetValue("DefaultEvents:Dead") then
+			elseif not is_dead and Peds[i]:GetValue("DefaultEvents:Dead") then
 				-- Ped respawned
-				ped:SetValue("DefaultEvents:Dead", false)
+				Peds[i]:SetValue("DefaultEvents:Dead", false)
 				
 				Events:Fire("PedRespawned", {
-					ped = ped
+					ped = Peds[i]
 				})
 
 				-- If this isn't a player and this client controls the ped, sync the event to the server
-				if not ped:IsAPlayer() and ped:NetworkHasControlOfNetworkId() then
+				if not Peds[i]:IsAPlayer() and Peds[i]:NetworkHasControlOfNetworkId() then
 					-- TODO: send more data because the server knows nothing
 					Network:Send("DefaultEvents:PedRespawned", {
-						ped_net_id = ped:GetNetId()
+						ped_net_id = Peds[i]:GetNetId()
 					})
 				end
 			end

@@ -35,18 +35,19 @@ end
 function cPlayers:SyncConnectedPlayers(data, on_init)
 	-- print("--- syncing Players ---")
 
-	for player_unique_id, sync_data in pairs(data) do
-		if not self.players_by_unique_id[player_unique_id] then
-			self:AddPlayer(sync_data)
+	--for player_unique_id, sync_data in pairs(data) do
+	for i = 1, #data do
+		if not self.players_by_unique_id[i] then
+			self:AddPlayer(data[i])
 
-			local player = self:GetByUniqueId(sync_data.unique_id)
+			local player = self:GetByUniqueId(data[i].unique_id)
 			if not on_init then
 				Events:Fire("PlayerJoined", {player = player})
 			end
 
 			-- print("Player Added: ", player)
 		else
-			self:AddPlayer(sync_data)
+			self:AddPlayer(data[i])
 		end
 	end
 	
@@ -54,9 +55,10 @@ function cPlayers:SyncConnectedPlayers(data, on_init)
 end
 
 function cPlayers:GetLocalPlayer()
-	for player_unique_id, player in pairs(self.players_by_unique_id) do
-		if LocalPlayer:IsPlayer(player) then
-			return player
+	--for player_unique_id, player in pairs(self.players_by_unique_id) do
+	for i = 1, #self.players_by_unique_id do
+		if LocalPlayer:IsPlayer(self.players_by_unique_id[i]) then
+			return self.players_by_unique_id[i]
 		end
 	end
 end
@@ -65,12 +67,13 @@ function cPlayers:GetNearestPlayer(position)
 	local closest_player
 	local closest_distance = 99999
 
-	for player_unique_id, player in pairs(self.players_by_unique_id) do
-		local distance =  #(position - player:GetPosition())
+	--for player_unique_id, player in pairs(self.players_by_unique_id) do
+	for i = 1, #self.players_by_unique_id do
+		local distance =  #(position - self.players_by_unique_id[i]:GetPosition())
 
 		if distance < closest_distance then
 			closest_distance = distance
-			closest_player = player
+			closest_player = self.players_by_unique_id[i]
 		end
 	end
 
@@ -81,8 +84,9 @@ function cPlayers:AddPlayer(sync_data)
 	local player = Player(sync_data.source_id, sync_data.steam_id, sync_data.source_id, sync_data.unique_id)
 	player:SetName(sync_data.name)
 
-	for name, value in pairs(sync_data.network_values) do
-		player:SetValue(name, value)
+	--for name, value in pairs(sync_data.network_values) do
+	for i = 1, #sync_data.network_values do
+		player:SetValue(i, sync_data.network_values[i])
 	end
 
 	self.players_by_unique_id[player:GetUniqueId()] = player
@@ -97,17 +101,19 @@ function cPlayers:GetByUniqueId(player_unique_id)
 end
 
 function cPlayers:GetByPlayerId(id)
-	for player_unique_id, player in pairs(self.players_by_unique_id) do
-		if player:GetPlayerId() == id then
-			return player
+	--for player_unique_id, player in pairs(self.players_by_unique_id) do
+	for i = 1, #self.players_by_unique_id do
+		if self.players_by_unique_id[i]:GetPlayerId() == id then
+			return self.players_by_unique_id[i]
 		end
 	end
 end
 
 function cPlayers:GetByServerId(server_id)
-	for player_unique_id, player in pairs(self.players_by_unique_id) do
-		if player:GetId() == server_id then
-			return player
+	--for player_unique_id, player in pairs(self.players_by_unique_id) do
+	for i = 1, #self.players_by_unique_id do
+		if self.players_by_unique_id[i]:GetId() == server_id then
+			return self.players_by_unique_id[i]
 		end
 	end
 end

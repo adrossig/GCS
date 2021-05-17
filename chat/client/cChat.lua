@@ -164,9 +164,10 @@ end
 -- ########### TODO: fix players not being added/removed right because @ing doesn't always work right
 
 function Chat:InitializePlayers(data)
-	for _, player_data in pairs(data) do
-		if player_data.id ~= LocalPlayer:GetPlayer():GetId() then
-			self.ui:CallEvent('chat/add_player', player_data)
+	--for _, player_data in pairs(data) do
+	for i = 1, #data do
+		if data[i].id ~= LocalPlayer:GetPlayer():GetId() then
+			self.ui:CallEvent('chat/add_player', data[i])
 		end
 	end
 end

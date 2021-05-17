@@ -100,9 +100,10 @@ function SpectateMode:SpectateActivated(player)
 end
 
 function SpectateMode:GetRandomPlayerToSpectate()
-	for id, player in pairs(cPlayers:GetPlayers()) do
-		if player:GetValue("Alive") and not player:GetValue("Down") and not LocalPlayer:IsPlayer(player) then
-			return player
+	--for id, player in pairs(cPlayers:GetPlayers()) do
+	for i = 1, #cPlayers:GetPlayers() do
+		if cPlayers:GetPlayers()[i]:GetValue("Alive") and not cPlayers:GetPlayers()[i]:GetValue("Down") and not LocalPlayer:IsPlayer(cPlayers:GetPlayers()[i]) then
+			return cPlayers:GetPlayers()[i]
 		end
 	end
 end
@@ -155,11 +156,12 @@ function SpectateMode:Enable(a)
 	--Chat:Debug("Spectate Random Player " .. tostring(a))
 	local found = false
 
-	for id, player in pairs(cPlayers:GetPlayers()) do
-		if player:GetValue("Alive") and not player:GetValue("Down") and not LocalPlayer:IsPlayer(player) then
+	--for id, player in pairs(cPlayers:GetPlayers()) do
+	for i = 1, #cPlayers:GetPlayers() do
+		if cPlayers:GetPlayers()[i]:GetValue("Alive") and not cPlayers:GetPlayers()[i]:GetValue("Down") and not LocalPlayer:IsPlayer(cPlayers:GetPlayers()[i]) then
 			--Chat:Print("Found player to spectate")
 			found = true
-			SpectateMode:StartSpectatingPlayer(player)
+			SpectateMode:StartSpectatingPlayer(cPlayers:GetPlayers()[i])
 			break
 			return
 		end
@@ -171,9 +173,10 @@ function SpectateMode:Enable(a)
 
 	-- TODO: remove this, it is test code
 	-- spectate actor if no players found
-	for id, actor in pairs(ActorManager.actors) do
-		if actor:GetReady() and actor:LocalPlayerHasControl() then
-			SpectateMode:StartSpectatingPlayer(actor)
+	--for id, actor in pairs(ActorManager.actors) do
+	for i = 1, #ActorManager.actors do
+		if ActorManager.actors[i]:GetReady() and ActorManager.actors[i]:LocalPlayerHasControl() then
+			SpectateMode:StartSpectatingPlayer(ActorManager.actors[i])
 			break
 			return
 		end

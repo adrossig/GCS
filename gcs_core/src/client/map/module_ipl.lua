@@ -12,14 +12,16 @@ if IsFiveM then
 	end
 	
 	function Ipl:RequestAll()
-		for _, name in pairs(Ipls) do
-			self:Request(name)
+		--for _, name in pairs(Ipls) do
+		for i = 1, #Ipls do
+			self:Request(Ipls[i])
 		end
 	end
 	
 	function Ipl:RemoveAll()
-		for _, name in pairs(Ipls) do
-			self:Remove(name)
+		--for _, name in pairs(Ipls) do
+		for i = 1, #Ipls do
+			self:Remove(Ipls[i])
 		end
 	end
 	

@@ -74,15 +74,16 @@ end
 
 function PlayerManager:PlayerConnect(source, name, setKickReason, deferrals)
 
-	-- First, check steam id
+	-- First, check license
 	local identifiers, licenseIdentifier = GetPlayerIdentifiers(source)
 	deferrals.defer()
 
 	deferrals.update(SERVER_Config.Deferrals.CheckingSteamId)
 
-	for _, v in pairs(identifiers) do
-		if string.find(v, "license") then
-			licenseIdentifier = v
+	--for _, v in pairs(identifiers) do
+	for i = 1, #identifiers do
+		if string.find(identifiers[i], "license") then
+			licenseIdentifier = identifiers[i]
 			break
 		end
 	end
@@ -111,8 +112,9 @@ function PlayerManager:PlayerConnect(source, name, setKickReason, deferrals)
 
 	-- Check if someone with the same name is already on the server
 	local name_lower = string.lower(name)
-	for id, player in pairs(sPlayers:GetPlayers()) do
-		if string.lower(player:GetName()) == name_lower then
+	--for id, player in pairs(sPlayers:GetPlayers()) do
+	for i = 1, #sPlayers:GetPlayers() do
+		if string.lower(sPlayers:GetPlayers()[i]:GetName()) == name_lower then
 			deferrals.done(string.format(SERVER_Config.Deferrals.DuplicateName, name))
 			CancelEvent()
 			return

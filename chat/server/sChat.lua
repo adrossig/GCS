@@ -19,9 +19,10 @@ end
 
 function Chat:GetAllPlayersSyncData(id)
 	local data = {}
-	for _, player in pairs(sPlayers:GetPlayers()) do
-		if id ~= player:GetId() then
-			table.insert(data, self:GetPlayerSyncData(player))
+	--for _, player in pairs(sPlayers:GetPlayers()) do
+	for i = 1, #sPlayers:GetPlayers() do
+		if id ~= sPlayers:GetPlayers()[i]:GetId() then
+			table.insert(data, self:GetPlayerSyncData(sPlayers:GetPlayers()[i]))
 		end
 	end
 	return data
@@ -70,9 +71,10 @@ function Chat:PlayerSendMessage(args)
 	-- Chat message blocked by another module
 	if sequence_contains(returns, false) then return end
 
-	for k,v in pairs(returns) do
+	--for k,v in pairs(returns) do
+	for i = 1, #returns do
 		if type(v) == 'string' then
-			args.text = v
+			args.text = returns[i]
 		end
 	end
 
@@ -83,9 +85,10 @@ function Chat:PlayerSendMessage(args)
 		if channel == "Local" then
 			local pos = player:GetPosition()
 
-			for id, p in pairs(sPlayers:GetPlayers()) do
-				if #(pos - p:GetPosition()) < ChatConfig.local_distance then
-					Network:Send('chat/message', p:GetId(), self:FormatMessage(args));
+			--for id, p in pairs(sPlayers:GetPlayers()) do
+			for j = 1, #sPlayers:GetPlayers() do
+				if #(pos - sPlayers:GetPlayers()[j]:GetPosition()) < ChatConfig.local_distance then
+					Network:Send('chat/message', sPlayers:GetPlayers()[j]:GetId(), self:FormatMessage(args));
 				end
 			end
 		else
