@@ -41,9 +41,10 @@ function Loadscreen:Add(args)
 end
 
 function Loadscreen:Remove(args)
-	for index, data in pairs(self.loading_functions) do
-		if data.name == args.name then
-			table.remove(self.loading_functions, index)
+	--for index, data in pairs(self.loading_functions) do
+	for i = 1, #self.loading_functions do
+		if self.loading_functions[i].name == args.name then
+			table.remove(self.loading_functions, i)
 			break
 		end
 	end

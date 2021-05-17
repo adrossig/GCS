@@ -50,11 +50,11 @@ function ObjectEditor:__init()
 end
 
 function ObjectEditor:LoadObjects(args)
-	for _, obj in pairs(args.data) do
+	for i = 1, #args.data do
 		self:SpawnObject({
-			model = obj.model,
-			position = vector3(obj.pos.x, obj.pos.y, obj.pos.z),
-			rotation = vector3(obj.rot.x, obj.rot.y, obj.rot.z)
+			model = args.data[i].model,
+			position = vector3(args.data[i].pos.x, args.data[i].pos.y, args.data[i].pos.z),
+			rotation = vector3(args.data[i].rot.x, args.data[i].rot.y, args.data[i].rot.z)
 		})
 	end
 
@@ -122,9 +122,9 @@ function ObjectEditor:Undo()
 end
 
 function ObjectEditor:FindObjectByEditId(id)
-	for _, object in pairs(Objects) do
-		if object:GetValue("ObjectEditorId") == id then
-			return object
+	fori = 1, #Objects do
+		if Objects[i]:GetValue("ObjectEditorId") == id then
+			return Objects[i]
 		end
 	end
 end
@@ -247,12 +247,12 @@ end
 function ObjectEditor:SerializeAllObjects()
 	local data = {}
 
-	for id, object in pairs(Objects) do
-		if object:GetValue("ObjectEditorId") then
-			local pos = object:GetPosition()
-			local rot = object:GetRotation()
+	for i = 1, #Objects do
+		if Objects[i]:GetValue("ObjectEditorId") then
+			local pos = Objects[i]:GetPosition()
+			local rot = Objects[i]:GetRotation()
 			table.insert(data, {
-				model = object:GetModel(),
+				model = Objects[i]:GetModel(),
 				pos = {x = pos.x, y = pos.y, z = pos.z},
 				rot = {x = rot.x, y = rot.y, z = rot.z}
 			})
@@ -274,8 +274,8 @@ end
 
 function ObjectEditor:Render(args)
 	if self.display_object_data then
-		for id, object in pairs(Objects) do
-			self:RenderObjectData(object)
+		for i = 1, #Objects do
+			self:RenderObjectData(Objects[i])
 		end
 	elseif self.selected_object then
 		self:RenderObjectData(self.selected_object)
