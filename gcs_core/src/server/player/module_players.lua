@@ -32,7 +32,7 @@ function sPlayers:AddPlayer(source, already_connected)
 
 	if not already_connected then
 		print(string.format("%s%s (%i | %s | %s) joined the server.%s", 
-			Colors.Console.Yellow, player:GetName(), player:GetId(), player:GetUniqueId(), player:GetIP(), Colors.Console.Default))
+			Colors.Console.Yellow, player:GetName(), player:GetId(), sPlayers:GetLicense(), tostring(player:GetIP()), Colors.Console.Default))
 		Events:Fire("PlayerJoined", {player = player})
 	end
 end

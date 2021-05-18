@@ -82,7 +82,7 @@ end
 
 function Marker:Draw()
 	if not self.visible then return end
-	Citizen.InvokeNative(IsFiveM and 0x28477EC23D892089 or 0x2A32FAA57B937173,
+	Citizen.InvokeNative(IsFiveM and 0x0134F0835AB6BFCB or 0x2A32FAA57B937173,
 		1,
 		self.position.x, self.position.y, self.position.z,
 		self.direction.x, self.direction.z, self.direction.z,

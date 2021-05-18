@@ -71,7 +71,6 @@ function PlayerManager:GetNumPlayersConnected()
 	return self.num_players_connected
 end
 
-
 function PlayerManager:PlayerConnect(source, name, setKickReason, deferrals)
 
 	-- First, check steam id
