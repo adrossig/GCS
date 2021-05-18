@@ -1,10 +1,7 @@
 sSpawnManager = class()
 
 function sSpawnManager:__init()
-
-
 	Network:Subscribe("Loadingscreen/Finished", self, self.LoadingscreenFinished)
-
 end
 
 function sSpawnManager:LoadingscreenFinished(args)

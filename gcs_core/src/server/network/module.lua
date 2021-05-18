@@ -56,7 +56,6 @@ end
 
 function Network:Send(name, players, args)
 	assert(name ~= nil and type(name) == "string", "cannot Network:Send without valid name (check your args!)")
-
 	assert(type(players) == "number" or type(players) == "table" or is_class_instance(players, Player), 
 		"cannot Network:Send without valid player id(s). Specify -1 for all, one id, or a table")
 	
@@ -65,8 +64,8 @@ function Network:Send(name, players, args)
 	elseif is_class_instance(players, Player) then
 		TriggerClientEvent(name, players:GetId(), args)
 	elseif type(players) == "table" then
-		--for _, player in pairs(players) do
-		for i = 1, #players do
+		for _, player in pairs(players) do
+		--for i = 1, #players do
 			if type(players[i]) == "number" then
 				TriggerClientEvent(name, players[i], args)
 			elseif is_class_instance(players[i], Player) then
