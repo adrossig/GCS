@@ -246,16 +246,16 @@ function World:DisablePedSpawning()
 		Citizen.CreateThread(function()
 			while true do
 
-				for i = 1, #SCENARIO_TYPES do
-					SetScenarioTypeEnabled(SCENARIO_TYPES[i], false)
+				for _, sctyp in pairs(SCENARIO_TYPES) do
+					SetScenarioTypeEnabled(sctyp, false)
 				end
 
-				for i = 1, #SCENARIO_GROUPS do
-					SetScenarioGroupEnabled(SCENARIO_GROUPS[i], false)
+				for _, scgrp in pairs(SCENARIO_GROUPS) do
+					SetScenarioGroupEnabled(scgrp, false)
 				end
 
-				for i = 1, #SUPPRESSED_MODELS do
-					SetVehicleModelIsSuppressed(GetHashKey(SUPPRESSED_MODELS[i]), true)
+				for _, model in pairs(SUPPRESSED_MODELS) do
+					SetVehicleModelIsSuppressed(GetHashKey(model), true)
 				end
 
 				Wait(5000)

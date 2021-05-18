@@ -48,9 +48,8 @@ end
 function EnsureStringKeys(input)
 	if type(input) == "table" then
 		local input_string_keys = {}
-		--for key, value in pairs(input) do
-		for i = 1, #input do
-			input_string_keys[tostring(i)] = EnsureStringKeys(input[i])
+		for key, value in pairs(input) do
+			input_string_keys[tostring(key)] = EnsureStringKeys(value)
 		end
 		return input_string_keys
 	end
@@ -193,9 +192,8 @@ function UI:CallEvent(args)
 	if args.name and self.uis[args.name] then
 		self.uis[args.name]:CallEvent(args.event_name, args.data)
 	else
-		--for name, ui in pairs(self.uis) do
-		for i = 1, #self.uis do
-			self.uis[i]:CallEvent(args.event_name, args.data)
+		for name, ui in pairs(self.uis) do
+			ui:CallEvent(args.event_name, args.data)
 		end
 	end
 end

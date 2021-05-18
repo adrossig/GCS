@@ -3,9 +3,8 @@ sPlayers = class()
 function sPlayers:__init()
 	self.players_by_unique_id = {}
 
-	--for _, player_id in pairs(GetPlayers()) do
-	for i = 1, #GetPlayers() do
-		self:AddPlayer(GetPlayers()[i], true)
+	for _, player_id in pairs(GetPlayers()) do
+		self:AddPlayer(player_id, true)
 	end
 end
 
@@ -58,9 +57,8 @@ end
 function sPlayers:GetAllSyncData()
 	local sync_data = {}
 
-	--for unique_id, player in pairs(self.players_by_unique_id) do
-	for i = 1, #self.players_by_unique_id do
-		sync_data[i] = self:GetPlayerSyncData(self.players_by_unique_id[i])
+	for unique_id, player in pairs(self.players_by_unique_id) do
+		sync_data[unique_id] = self:GetPlayerSyncData(player)
 	end
 
 	return sync_data
@@ -79,25 +77,24 @@ function sPlayers:GetPlayerIdentifiers(source)
 	}
 	local identifiers, steamIdentifier = GetPlayerIdentifiers(source)
 	
-	--for _, v in pairs(identifiers) do
-	for i = 1, #identifiers do
-		if string.find(identifiers[i], "steam") then
-			ids.steam = identifiers[i]:gsub("steam:", "")
+	for _, v in pairs(identifiers) do
+		if string.find(v, "steam") then
+			ids.steam = v:gsub("steam:", "")
 		end
-		if string.find(identifiers[i], "license") then
-			ids.license = identifiers[i]:gsub("license:", "")
+		if string.find(v, "license") then
+			ids.license = v:gsub("license:", "")
 		end
-		if string.find(identifiers[i], "live") then
-			ids.live = identifiers[i]:gsub("live:", "")
+		if string.find(v, "live") then
+			ids.live = v:gsub("live:", "")
 		end
-		if string.find(identifiers[i], "discord") then
-			ids.discord = identifiers[i]:gsub("discord:", "")
+		if string.find(v, "discord") then
+			ids.discord = v:gsub("discord:", "")
 		end
-		if string.find(identifiers[i], "fivem") then
-			ids.fivem = identifiers[i]:gsub("fivem:", "")
+		if string.find(v, "fivem") then
+			ids.fivem = v:gsub("fivem:", "")
 		end
-		if string.find(identifiers[i], "ip") then
-			ids.ip = identifiers[i]:gsub("ip:", "")
+		if string.find(v, "ip") then
+			ids.ip = v:gsub("ip:", "")
 		end
 	end
 	
@@ -115,10 +112,9 @@ end
 -- "source" id: number
 function sPlayers:GetById(id)
 	id = tonumber(id)
-	--for player_unique_id, player in pairs(self.players_by_unique_id) do
-	for i = 1, #self.players_by_unique_id do
-		if self.players_by_unique_id[i]:GetId() == id then
-			return self.players_by_unique_id[i]
+	for player_unique_id, player in pairs(self.players_by_unique_id) do
+		if player:GetId() == id then
+			return player
 		end
 	end
 end
@@ -129,20 +125,18 @@ end
 
 -- Return the player steam id
 function sPlayers:GetBySteamId(steam_id)
-	--for player_unique_id, player in pairs(self.players_by_unique_id) do
-	for i = 1, #self.players_by_unique_id do
-		if self.players_by_unique_id[i]:GetSteamId() == steam_id then
-			return self.players_by_unique_id[i]
+	for player_unique_id, player in pairs(self.players_by_unique_id) do
+		if player:GetSteamId() == steam_id then
+			return player
 		end
 	end
 end
 
 -- Return the player license
 function sPlayers:GetByLicense(license_id)
-	--for player_unique_id, player in pairs(self.players_by_unique_id) do
-	for i = 1, #self.players_by_unique_id do
-		if self.players_by_unique_id[i]:GetLicense() == license_id then
-			return self.players_by_unique_id[i]
+	for player_unique_id, player in pairs(self.players_by_unique_id) do
+		if player:GetLicense() == license_id then
+			return player
 		end
 	end
 end

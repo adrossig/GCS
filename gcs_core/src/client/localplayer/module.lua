@@ -7,11 +7,10 @@ function LocalPlayer:__init()
 	getter_setter(self, "is_spawning") -- declares LocalPlayer:GetIsSpawning() and LocalPlayer:SetIsSpawning() for self.is_spawning
 
 	local local_player_server_id = GetPlayerServerId(LocalPlayer:GetPlayerId())
-	--for player_unique_id, player in pairs(cPlayers:GetPlayers()) do
-	for i = 1, #cPlayers:GetPlayers() do
-		if cPlayers:GetPlayers()[i]:GetId() == local_player_server_id then
-			self:SetUniqueId(i)
-			self:SetName(cPlayers:GetPlayers()[i]:GetName())
+	for player_unique_id, player in pairs(cPlayers:GetPlayers()) do
+		if player:GetId() == local_player_server_id then
+			self:SetUniqueId(player_unique_id)
+			self:SetName(player:GetName())
 			break
 		end
 	end
@@ -114,10 +113,9 @@ function LocalPlayer:RestrictedActionsThread()
 		while true do
 			Wait(1)
 
-			--for control, restricted in pairs(self.disabled_actions) do
-			for i = 1, #self.disabled_actions do
+			for control, restricted in pairs(self.disabled_actions) do
 				if restricted then
-					DisableControlAction(0, self.disabled_actions[i], true)
+					DisableControlAction(0, control, true)
 				end
 			end
 		end

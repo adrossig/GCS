@@ -31,14 +31,13 @@ end
 function KeyPress:CheckForPressedKeys()
 	Citizen.CreateThread(function()
 		while true do
-			--for key, weight in pairs(self.check_keys) do
-			for i = 1, #self.check_keys do
-				if IsControlJustReleased(0, self.check_keys[i]) or IsControlJustReleased(1, self.check_keys[i]) or IsControlJustReleased(2, self.check_keys[i]) then
-					Events:Fire('KeyUp', {key = self.check_keys[i]})
-				elseif IsControlJustPressed(0, self.check_keys[i]) or IsControlJustPressed(1, self.check_keys[i]) or IsControlJustPressed(2, self.check_keys[i]) then
-					Events:Fire('KeyDown', {key = self.check_keys[i]})
-				elseif IsControlPressed(0, self.check_keys[i]) or IsControlPressed(1, self.check_keys[i]) or IsControlPressed(2, self.check_keys[i]) then
-					Events:Fire('KeyPress', {key = self.check_keys[i]})
+			for key, weight in pairs(self.check_keys) do
+				if IsControlJustReleased(0, key) or IsControlJustReleased(1, key) or IsControlJustReleased(2, key) then
+					Events:Fire('KeyUp', {key = key})
+				elseif IsControlJustPressed(0, key) or IsControlJustPressed(1, key) or IsControlJustPressed(2, key) then
+					Events:Fire('KeyDown', {key = key})
+				elseif IsControlPressed(0, key) or IsControlPressed(1, key) or IsControlPressed(2, key) then
+					Events:Fire('KeyPress', {key = key})
 				end
 			end
 			Citizen.Wait(1)

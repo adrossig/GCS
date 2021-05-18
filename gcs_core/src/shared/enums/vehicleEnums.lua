@@ -105,9 +105,8 @@ privatearmoured
 	}
 
 	self.vehicle_hash_map = {}
-	--for k, v in pairs(self.hash_vehicle_map) do
-	for i = 1, #self.hash_vehicle_map do
-		self.vehicle_hash_map[i] = self.hash_vehicle_map[i]
+	for k, v in pairs(self.hash_vehicle_map) do
+		self.vehicle_hash_map[v] = k
 	end
 
 end

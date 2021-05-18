@@ -39,9 +39,8 @@ Citizen.CreateThread(function()
 		end
 
 		-- execute the inits in the order we received them
-		--for index, init_function_data in ipairs(__init_list) do
-		for i = 1, #__init_list do
-			local init_function = __init_list[i][2]
+		for index, init_function_data in ipairs(__init_list) do
+			local init_function = init_function_data[2]
 			init_function()
 			-- inits created inside of the init_function (nested inits) will immediately come into existance as instances
 		end
@@ -50,9 +49,8 @@ Citizen.CreateThread(function()
 		-- Execute the postLoads
 		---------
 
-		--for index, init_function_data in ipairs(__init_list) do
-		for i = 1, #__init_list do
-			local instance = __init_list[i][1]
+		for index, init_function_data in ipairs(__init_list) do
+			local instance = init_function_data[1]
 
 			if instance.__postLoad then
 				instance.__postLoad()

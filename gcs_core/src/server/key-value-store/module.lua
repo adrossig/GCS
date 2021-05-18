@@ -194,10 +194,8 @@ function KeyValueStore:GetMultiple(args)
 	local values = {}
 
 	if args.synchronous then
-		--for _, key in ipairs(args.keys) do
-		for i = 1, #args.keys do
-			values[i] = args.keys
-			values[i] = KeyValueStore:Get({key = key, synchronous = true})
+		for _, key in ipairs(args.keys) do
+			values[key] = KeyValueStore:Get({key = key, synchronous = true})
 		end
 		return values
 	else
@@ -212,9 +210,8 @@ function KeyValueStore:GetMultiple(args)
 			end
 		end
 	
-		--for key_index, key in ipairs(args.keys) do
-		for i = 1, #args.keys do
-			KeyValueStore:Get({key = args.key[i], callback = get_callback})
+		for key_index, key in ipairs(args.keys) do
+			KeyValueStore:Get({key = key, callback = get_callback})
 		end
 	end
 end
@@ -290,13 +287,11 @@ end
 
 function KeyValueStore:CallGetCallbacks(key, value)
 	if self.outstanding_get_callbacks[key] then
-		local temp = self.outstanding_get_callbacks[key]
-		--for _, callback_data in ipairs(self.outstanding_get_callbacks[key]) do
-		for i = 1, #temp do
+		for _, callback_data in ipairs(self.outstanding_get_callbacks[key]) do
 			self.__current_callback_key = key
-			temp[i].callback(value)
+			callback_data.callback(value)
 		end
-		temp = nil
+		self.outstanding_get_callbacks[key] = nil
 	end
 end
 
@@ -307,17 +302,15 @@ function KeyValueStore:RemoveStaleCachedValuesThread()
 
 			-- store the keys to remove in a separate table and remove outside of self.cached_values loop to prevent concurrent modification issues
 			local keys_to_remove = {}
-			--for key, cache_data in pairs(self.cached_values) do
-			for i = 1, #self.cached_values do
-				if self.cached_values[i].timer:GetMilliseconds() > self.min_cache_time then
-					keys_to_remove[i] = i
+			for key, cache_data in pairs(self.cached_values) do
+				if cache_data.timer:GetMilliseconds() > self.min_cache_time then
+					table.insert(keys_to_remove, key)
 				end
 			end
 
-			--for _, key in ipairs(keys_to_remove) do
-			for i = 1, #keys_to_remove do
-				self.cached_values[keys_to_remove[i]].timer = nil
-				self.cached_values[keys_to_remove[i]] = nil
+			for _, key in ipairs(keys_to_remove) do
+				self.cached_values[key].timer = nil
+				self.cached_values[key] = nil
 			end
 		end
 	end)

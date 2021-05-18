@@ -36,7 +36,7 @@ AddEventHandler('cui_character:requestPlayerData', function()
 		local query = 'SELECT skin FROM player_skins WHERE identifier = @identifier'
 		local params = {['@identifier'] = license}
 
-		SQL:Fetch(query, params, function(users)
+		--[[SQL:Fetch(query, params, function(users)
 			local playerData = { skin = nil, newPlayer = true}
 				if users and users[1] ~= nil and users[1].skin ~= nil then
 					playerData.skin = json.decode(users[1].skin)
@@ -44,7 +44,7 @@ AddEventHandler('cui_character:requestPlayerData', function()
 				end
 				TriggerClientEvent('cui_character:recievePlayerData', _source, playerData)
 			end)
-		end)
+		end)]]
 	else
 		print("creator -> License not found")
 	end

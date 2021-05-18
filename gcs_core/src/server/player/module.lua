@@ -130,9 +130,8 @@ function Player:GetStoredValue(args)
 
 	if args.keys then
 		kvs_args.keys = {}
-		--for _, key in ipairs(args.keys) do
-		for i = 1, #args.keys do
-			kvs_args.keys[i] = ("Player_" .. tostring(self:GetUniqueId()) .. args.keys[i])
+		for _, key in ipairs(args.keys) do
+			table.insert(kvs_args.keys, "Player_" .. tostring(self:GetUniqueId()) .. key)
 		end
 	end
 

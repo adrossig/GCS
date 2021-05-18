@@ -74,16 +74,15 @@ end
 
 function PlayerManager:PlayerConnect(source, name, setKickReason, deferrals)
 
-	-- First, check license
+	-- First, check steam id
 	local identifiers, licenseIdentifier = GetPlayerIdentifiers(source)
 	deferrals.defer()
 
 	deferrals.update(SERVER_Config.Deferrals.CheckingSteamId)
 
-	--for _, v in pairs(identifiers) do
-	for i = 1, #identifiers do
-		if string.find(identifiers[i], "license") then
-			licenseIdentifier = identifiers[i]
+	for _, v in pairs(identifiers) do
+		if string.find(v, "license") then
+			licenseIdentifier = v
 			break
 		end
 	end
@@ -112,9 +111,8 @@ function PlayerManager:PlayerConnect(source, name, setKickReason, deferrals)
 
 	-- Check if someone with the same name is already on the server
 	local name_lower = string.lower(name)
-	--for id, player in pairs(sPlayers:GetPlayers()) do
-	for i = 1, #sPlayers:GetPlayers() do
-		if string.lower(sPlayers:GetPlayers()[i]:GetName()) == name_lower then
+	for id, player in pairs(sPlayers:GetPlayers()) do
+		if string.lower(player:GetName()) == name_lower then
 			deferrals.done(string.format(SERVER_Config.Deferrals.DuplicateName, name))
 			CancelEvent()
 			return
@@ -166,9 +164,8 @@ function PlayerManager:GetLoadingIcons(time)
 end
 
 function PlayerManager:GetPositionInQueue(source)
-	--for pos, src in ipairs(self.queue) do
-	for i = 1, #self.queue do
-		if self.queue[i] == source then return i end
+	for pos, src in ipairs(self.queue) do
+		if src == source then return pos end
 	end
 	return '???'
 end

@@ -14,19 +14,17 @@ function Imap:Remove(hash)
 end
 
 function Imap:RequestAll()
-	--for _, hash in pairs(Imaps) do
-	for i = 1, #Imaps do
-		self:Request(Imaps[i])
+	for _, hash in pairs(Imaps) do
+		self:Request(hash)
 	end
 end
 
 function Imap:RemoveAll()
 	Citizen.CreateThread(function()
-		--for _, hash in pairs(Imaps) do
-		for i = 1, #Imaps do
-			self:Remove(Imaps[i])
+		for _, hash in pairs(Imaps) do
+			self:Remove(hash)
 
-			if i % 50 == 0 then
+			if _ % 50 == 0 then
 				Wait(1)
 			end
 		end

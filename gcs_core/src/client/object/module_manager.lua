@@ -16,9 +16,8 @@ function ObjectManager:OnResourceStop(resource_name)
 end
 
 function ObjectManager:RemoveAllObjects()
-	--for id, object in pairs(Objects) do
-	for i = 1, #Objects do
-		Objects[i]:Destroy()
+	for id, object in pairs(Objects) do
+		object:Destroy()
 	end
 	Objects = {}
 end

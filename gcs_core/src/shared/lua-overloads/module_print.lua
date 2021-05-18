@@ -18,9 +18,8 @@ function print(...)
 		output_str = output_str .. " [" .. f_time(hour) .. ":" .. f_time(min) .. ":" .. f_time(sec) .. "]: "
 	end
 
-	--for index, arg in ipairs(args) do
-	for i = 1, #args do
-		output_str = output_str .. tostring(args[i])
+	for index, arg in ipairs(args) do
+		output_str = output_str .. tostring(arg)
 	end
 
 	OgLuaPrint(output_str)

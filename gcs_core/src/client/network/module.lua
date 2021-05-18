@@ -24,9 +24,8 @@ function NetworkEvent:Receive(args, name)
 		fetch_id = args.__fetch_id
 		args.__is_fetch = nil
 		args.__fetch_id = nil
-		--for k,v in pairs(args) do
-		for i = 1, #args do
-			return_args[i] = args[i]
+		for k,v in pairs(args) do 
+			return_args[k] = v
 		end 
 	end
 	
@@ -112,9 +111,8 @@ function Network:Subscribe(name, instance, callback)
 
 		RegisterNetEvent(name)
 		self.handlers[name] = AddEventHandler(name, function(args)
-			--for _, networkevent in pairs(self.subs[name]) do
-			for i = 1, #self.subs[name] do
-				self.subs[name][i]:Receive(args, name)
+			for _, networkevent in pairs(self.subs[name]) do
+				networkevent:Receive(args, name)
 			end
 		end)
 	end

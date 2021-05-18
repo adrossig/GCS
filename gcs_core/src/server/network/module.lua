@@ -25,9 +25,8 @@ function NetworkEvent:Receive(source, args, name)
 		fetch_id = args.__fetch_id
 		args.__is_fetch = nil
 		args.__fetch_id = nil
-		--for k, v in pairs(args) do
-		for i = 1, #args do
-			return_args[i] = args[i]
+		for k, v in pairs(args) do
+			return_args[k] = v 
 		end 
 	end
 	
@@ -56,6 +55,7 @@ end
 
 function Network:Send(name, players, args)
 	assert(name ~= nil and type(name) == "string", "cannot Network:Send without valid name (check your args!)")
+
 	assert(type(players) == "number" or type(players) == "table" or is_class_instance(players, Player), 
 		"cannot Network:Send without valid player id(s). Specify -1 for all, one id, or a table")
 	
@@ -65,11 +65,10 @@ function Network:Send(name, players, args)
 		TriggerClientEvent(name, players:GetId(), args)
 	elseif type(players) == "table" then
 		for _, player in pairs(players) do
-		--for i = 1, #players do
-			if type(players[i]) == "number" then
-				TriggerClientEvent(name, players[i], args)
-			elseif is_class_instance(players[i], Player) then
-				TriggerClientEvent(name, players[i]:GetId(), args)
+			if type(player) == "number" then
+				TriggerClientEvent(name, player, args)
+			elseif is_class_instance(player, Player) then
+				TriggerClientEvent(name, player:GetId(), args)
 			end
 		end
 	end
@@ -82,11 +81,9 @@ function Network:Fetch(name, players, args)
 	self.current_fetch_id = self.current_fetch_id + 1
 	local fetch_id = self.current_fetch_id
 	local fetch_args = args
-
 	if not args then
 		fetch_args = {}
 	end
-	
 	fetch_args.__is_fetch = true
 	fetch_args.__fetch_id = fetch_id
 	Network:Send(name, players, fetch_args)
@@ -99,7 +96,6 @@ function Network:Fetch(name, players, args)
 
 	local response_timer = Timer()
 	local fetched_data
-
 	while not self.fetch_data[fetch_id] do
 		Wait(10)
 		if response_timer:GetSeconds() > 4 then
@@ -107,7 +103,6 @@ function Network:Fetch(name, players, args)
 			break
 		end
 	end
-	
 	fetched_data = self.fetch_data[fetch_id]
 	self.fetch_data[fetch_id] = nil
 	subscription:Unsubscribe()
