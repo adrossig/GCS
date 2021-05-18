@@ -53,7 +53,7 @@ function PlayerManager:PlayerDisconnect(source, reason)
 	local player_unique_id = player:GetUniqueId()
 
 	print(string.format("%s%s (%i | %s | %s) left the server.%s", 
-		Colors.Console.Yellow, player:GetName(), player:GetId(), player:GetByLicense(player_unique_id), tostring(player:GetIP()), Colors.Console.Default))
+		Colors.Console.Yellow, player:GetName(), player:GetId(), sPlayers:GetLicense(), tostring(player:GetIP()), Colors.Console.Default))
 
 	player:Disconnected()
 
