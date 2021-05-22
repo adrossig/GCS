@@ -165,4 +165,78 @@ function Creator:UpdateClothes(data)
 	end
 end
 
+-- Opening the character creator
+Network:Subscribe('creator:open', function(tabs, cancelable)
+	if self.isInterfaceOpening then
+		return
+	end
+	self.isInterfaceOpening = true
+
+	if cancelable ~= nil then
+		self.isCancelable = cancelable
+	end
+
+	while (not self.initialized) or (not self.isModelLoaded) or (not self.isPlayerReady) do
+		Wait(100)
+	end
+
+	local maleModelHash = GetHashKey('mp_m_freemode_01')
+	local femaleModelHash = GetHashKey('mp_f_freemode_01')
+	LoadModel(maleModelHash)
+	LoadModel(femaleModelHash)
+	RequestStreamedTextureDict('mparrow')
+	RequestStreamedTextureDict('mpleaderboard')
+
+	while not HasStreamedTextureDictLoaded('mparrow') or 
+			not HasStreamedTextureDictLoaded('mpleaderboard') or 
+			not HasModelLoaded(maleModelHash) or
+			not HasModelLoaded(femaleModelHash) do
+		Wait(100)
+	end
+
+	Creator:BeginCharacterPreview()
+	self.ui:CallEvent('clearAllTabs')
+	local firstName = ""
+	local clothes = nil
+
+	for i = 0, #self.openTabs do
+		self.openTabs = nil
+	end
+
+	for index, value in pairs(tabs) do
+		if index == 1 then
+			firstName = value
+		end
+
+		self.openTabs[index] = tabs[index]
+		if tabs[index] == 'identity' then
+			if not self.identityLoaded then
+				RequestStreamedTextureDict('pause_menu_pages_char_mom_dad')
+				RequestStreamedTextureDict('char_creator_portraits')
+			
+				while not HasStreamedTextureDictLoaded('pause_menu_pages_char_mom_dad') or not HasStreamedTextureDictLoaded('char_creator_portraits') do
+					Wait(100)
+				end
+				self.identityLoaded = true
+			end
+		elseif tabName == 'apparel' then
+			-- load clothes data from natives here
+			clothes = GetClothesData()
+		end
+	end
+
+	self.ui:CallEvent('enabledTabs', {
+		tabs = tabs,
+		character = self.currentChar,
+		clothes = clothes,
+		identity = self.currentIdentity
+	})
+	self.ui:CallEvent('activateTabs', {
+		tabs = tabs,
+		character = self.currentChar,
+		clothes = clothes,
+		identity = self.currentIdentity
+	})
+end)
+
 Creator = Creator()
